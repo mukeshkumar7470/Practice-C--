@@ -13,7 +13,7 @@ int main(){
     cin>>num1;
     cout<<"Enter second integer number: ";
     cin>>num2;  
-    cout<<"Sum of entered numbers is: "<<num1+num2;    
+    cout<<"Sum of entered numbers is: "<<num1+num2<<endl;    
     
     return 0;
 }
