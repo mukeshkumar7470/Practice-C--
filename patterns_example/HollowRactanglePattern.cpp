@@ -11,9 +11,9 @@ int main(){
     cout<<"Enter the colomn value : ";
     cin>>colm;
 
-    for (int i = 0; i <= rows; i++)
+    for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j <= colm; j++)
+        for (int j = 0; j < colm; j++)
         {
             cout<<"* ";
         }
