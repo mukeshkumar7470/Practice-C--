@@ -11,11 +11,43 @@ int main(){
     cout<<"Enter the colomn value : ";
     cin>>colm;
 
-    for (int i = 0; i < rows; i++)
+/*     //first method 
+    for (int i = 1; i <= rows; i++)
     {
-        for (int j = 0; j < colm; j++)
+        for (int j = 1; j <= colm; j++)
         {
-            cout<<"* ";
+            if (i==1 || i==rows)
+            {
+                cout<<"* ";
+            }else if (j==1 || j==colm)
+            {
+                cout<<"* ";
+            }else{
+                cout<<"  ";
+
+            }
+            
+            
+        }
+        cout<<endl;
+        
+    } */
+
+
+    //Second method
+    for (int i = 1; i <= rows; i++)
+    {
+        for (int j = 1; j <= colm; j++)
+        {
+            if (i==1 || i==rows || j==1 || j==colm)
+            {
+                cout<<"* ";
+            }else{
+                cout<<"  ";
+
+            }
+            
+            
         }
         cout<<endl;
         
