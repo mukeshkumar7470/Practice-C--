@@ -16,7 +16,7 @@ int main(){
 
     }
 
-    cout<<"Reverse Number is: "<<reverse<<endl;
+    cout<<"Reverse Number is "<<reverse<<endl;
     
     
     return 0;
