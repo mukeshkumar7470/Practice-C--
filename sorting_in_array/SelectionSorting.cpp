@@ -41,7 +41,7 @@ int main(){
     cout<<"The sorted list is: ";
     for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
-	};
+	}
 
 
     return 0;
