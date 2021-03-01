@@ -51,8 +51,6 @@ int main(){
     {
         cout<< arr[i+maxSt];
     }
-    
-    
 
     return 0;
 }
