@@ -13,7 +13,7 @@ int main(){
     string s;
     cin>>s; //We use cin to input the string.
 
-    string str;
+    string strr;
     getline(cin, s); //Using getline() function : To input the string with space we use getline() function instead of cin.
 
     //Throwing Output
