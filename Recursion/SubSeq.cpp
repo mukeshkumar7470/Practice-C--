@@ -1,0 +1,36 @@
+#include <iostream>
+#include <climits>
+using namespace std;
+
+/* Print all the subsequences */
+
+/* Objective: For each character, we have two choices, either we include it or not.
+Time Complexity: O(2 n )
+Space Complexity: O(2 n ) */
+
+void subseq(string s, string ans = ""){
+
+    if (s.length() == 0)
+    {
+        cout<< ans <<endl;
+        return;
+    }
+
+    char ch = s[0];
+    string ros = s.substr(1);
+
+    subseq(ros, ans);
+    subseq(ros, ans + ch);
+
+
+    
+}
+
+
+int main(){
+     
+     subseq("Hello","");
+     cout<<endl;
+
+    return 0;
+}         
